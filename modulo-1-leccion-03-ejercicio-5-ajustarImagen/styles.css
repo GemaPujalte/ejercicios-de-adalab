@@ -1,0 +1,14 @@
+.medidas {
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 5px solid red;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+}
