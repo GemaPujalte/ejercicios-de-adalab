@@ -1,0 +1,27 @@
+.item {
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+  padding: 30px;
+}
+
+.item1 {
+  background-color: blueviolet;
+  position: relative;
+  right: 100px;
+  bottom: 50px;
+}
+
+.item2 {
+  background-color: red;
+  position: relative;
+  left: 150px;
+  top: 320px;
+}
+
+.item3 {
+  background-color: green;
+  position: relative;
+  right: 180px;
+  top: 240px;
+}
