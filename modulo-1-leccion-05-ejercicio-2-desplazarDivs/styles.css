@@ -1,27 +1,33 @@
-.item {
+div {
   height: 300px;
   width: 300px;
   margin: 40px;
   padding: 30px;
 }
 
+.item {
+}
+
 .item1 {
   background-color: blueviolet;
   position: relative;
-  right: 100px;
-  bottom: 50px;
+  left: 100px;
+  /* transform: translate(100px, 50px); */
+  top: 50px;
 }
 
 .item2 {
   background-color: red;
   position: relative;
-  left: 150px;
-  top: 320px;
+  right: 150px;
+  bottom: 320px;
+  /* transform: translate(-150px, -320px); */
 }
 
 .item3 {
   background-color: green;
   position: relative;
-  right: 180px;
-  top: 240px;
+  left: 180px;
+  bottom: 240px;
+  /* transform: translate(180px, -240px); */
 }
