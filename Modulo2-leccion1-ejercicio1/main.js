@@ -7,9 +7,8 @@ document.querySelector("h1").innerHTML =
 
 //EJERCICIO 2
 
-const direction = "Augustóbriga 9";
-
-const direction2 = "Villaverde Alto";
+const adress = "Augustóbriga 9";
+//Para evitar el error, en vez de const lo declaramos como let.
 
 let name = "Gema";
 name = "Ana";
@@ -29,9 +28,13 @@ const titleElement = document.querySelector(".title");
 const ada1 = document.querySelector(".adalaber1");
 const ada2 = document.querySelector(".adalaber2");
 
-titleElement.innerHTML = titleElement.innerHTML + ada1.innerHTML;
+titleElement.innerHTML = titleElement.innerHTML + ada2.innerHTML;
 
 //EJERCICIO 5
+
+const adaPassword = document.querySelector(".adaPassword");
+
+adaPassword.innerHTML = "***";
 
 //EJERCICIO 6
 
